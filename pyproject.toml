@@ -1,0 +1,27 @@
+[project]
+name = "workspace-manager"
+version = "0.1.0"
+description = "Manage your workspace through an interactive menu with Textual"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dependency-injector>=4.48.2",
+    "pydantic>=2.12.3",
+    "pydantic-settings>=2.11.0",
+    "rich>=14.2.0",
+    "textual>=6.4.0",
+    "typer>=0.20.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipdb>=0.13.13",
+    "ipython>=9.6.0",
+    "pytest>=8.4.2",
+    "pytest-cov>=4.0.0",
+    "pytest-mock>=3.14.0",
+    "ruff>=0.8.0",
+    "typer>=0.20.0",
+    "types-redis>=4.0.0",
+]
+    
